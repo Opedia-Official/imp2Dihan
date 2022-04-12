@@ -371,8 +371,6 @@ img.prise-utils {
   font-size: 50px;
   line-height: 38px;
   margin-bottom: 45px;
-  /* or 76% */
-
   text-align: center;
 
   color: #ffffff;
@@ -453,7 +451,6 @@ a.btn-price {
   line-height: 60px;
   letter-spacing: -0.025em;
   font-feature-settings: "liga" off;
-
   color: #ffffff;
 }
 
@@ -492,8 +489,6 @@ h4.ana-title {
   font-weight: 600;
   font-size: 22px;
   line-height: 28px;
-  /* or 127% */
-
   text-align: center;
   font-feature-settings: "liga" off;
 
@@ -684,12 +679,9 @@ section.trade-app {
   font-weight: 700;
   font-size: 36px;
   line-height: 32px;
-  /* identical to box height, or 89% */
-
   text-align: center;
   letter-spacing: -0.025em;
   font-feature-settings: "liga" off;
-
   color: #ba963a;
   margin-top: 60px;
   margin-bottom: 30px;
@@ -724,8 +716,6 @@ section.trade-app {
   font-weight: 700;
   font-size: 36px;
   line-height: 60px;
-  /* identical to box height, or 167% */
-
   letter-spacing: -0.025em;
   font-feature-settings: "liga" off;
 
@@ -853,33 +843,23 @@ span.t-right {
   padding: 80px 40px;
 }
 .analysis h1 {
-  /* Display lg / Bold */
-
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
   line-height: 60px;
-  /* identical to box height, or 125% */
-
   letter-spacing: -0.025em;
   font-feature-settings: "liga" off;
 
   color: #ffffff;
 }
 .analysis p {
-  /* Body lg / Regular */
-
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
-  /* identical to box height, or 156% */
-
-  /* text-align: center; */
   font-feature-settings: "liga" off;
-
   color: #ffffff;
 }
 .analysis h3 {
@@ -888,8 +868,6 @@ span.t-right {
   font-weight: 700;
   font-size: 36px;
   line-height: 60px;
-  /* identical to box height, or 167% */
-
   letter-spacing: -0.025em;
   font-feature-settings: "liga" off;
 
@@ -917,14 +895,8 @@ span.t-right {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  /* identical to box height, or 150% */
-
   font-feature-settings: "liga" off;
-
   color: #ba963a;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -948,8 +920,6 @@ span.t-right {
   font-weight: 400;
   font-size: 16px;
   line-height: 29px;
-  /* or 181% */
-
   letter-spacing: -0.025em;
   font-feature-settings: "liga" off;
 
@@ -1017,15 +987,11 @@ th {
   margin: 200px 0px !important;
 }
 .mobileshow h1 {
-  /* Display lg/Bold */
-
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
   line-height: 60px;
-  /* identical to box height, or 125% */
-
   letter-spacing: -0.025em;
   font-feature-settings: "liga" off;
 
@@ -1040,25 +1006,17 @@ th {
   font-weight: 700;
   font-size: 36px;
   line-height: 37px;
-  /* or 103% */
-
   letter-spacing: -0.025em;
   font-feature-settings: "liga" off;
 
   color: #c5c5c5;
 }
 .mobileshow p {
-  /* Body lg / Regular */
-
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
-  /* or 156% */
-
-  font-feature-settings: "liga" off;
-
   color: #ffffff;
   width: 70%;
 }
@@ -1084,30 +1042,22 @@ th {
   width: 47%;
 }
 .finalcial h1 {
-  /* Display lg/Bold */
-
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
   line-height: 60px;
-  /* identical to box height, or 125% */
-
   letter-spacing: -0.025em;
   font-feature-settings: "liga" off;
 
   color: #ffffff;
 }
 .finalcial p {
-  /* Body lg / Regular */
-
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
-  /* or 156% */
-
   font-feature-settings: "liga" off;
   color: #ffffff;
   width: 65%;
@@ -1126,8 +1076,6 @@ th {
   font-weight: 700;
   font-size: 48px;
   line-height: 60px;
-  /* identical to box height, or 125% */
-
   text-align: center;
   letter-spacing: -0.025em;
   font-feature-settings: "liga" off;
@@ -1153,8 +1101,6 @@ th {
   font-weight: 700;
   font-size: 72px;
   line-height: 60px;
-  /* identical to box height, or 83% */
-
   text-align: center;
   letter-spacing: -0.025em;
   font-feature-settings: "liga" off;
@@ -1174,8 +1120,6 @@ th {
   font-weight: 400;
   font-size: 18px;
   line-height: 26px;
-  /* identical to box height, or 144% */
-
   text-align: center;
   letter-spacing: -0.025em;
   font-feature-settings: "liga" off;
@@ -1190,8 +1134,6 @@ th {
   font-weight: 500;
   font-size: 20px;
   line-height: 32px;
-  /* identical to box height, or 133% */
-
   display: flex;
   justify-content: center;
   text-align: center;
@@ -1213,8 +1155,6 @@ th {
   font-weight: 700;
   font-size: 48px;
   line-height: 60px;
-  /* identical to box height, or 125% */
-
   text-align: center;
   letter-spacing: -0.025em;
   font-feature-settings: "liga" off;
@@ -1223,9 +1163,6 @@ th {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   align-self: stretch;
@@ -1239,7 +1176,6 @@ th {
   height: 54px;
   width: 54px;
   object-fit: contain;
-  background: white;
   padding: 6px;
   margin-bottom: 30px;
 }
@@ -1354,22 +1290,14 @@ th {
 }
 
 .trust p {
-  /* Body lg / Regular */
-
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
-  /* or 156% */
-
   text-align: center;
   font-feature-settings: "liga" off;
-
   color: #ffffff;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 1;
   align-self: stretch;
@@ -1382,12 +1310,9 @@ th {
   font-weight: 600;
   font-size: 36px;
   line-height: 60px;
-  /* identical to box height, or 167% */
-
   text-align: center;
   letter-spacing: -0.025em;
   font-feature-settings: "liga" off;
-
   background: linear-gradient(94.06deg, #ba963a 53.07%, #cc9c21 70.76%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1400,8 +1325,6 @@ th {
   font-weight: 600;
   font-size: 24px;
   line-height: 38px;
-  /* identical to box height, or 158% */
-
   letter-spacing: -0.025em;
 
   color: #ba963a;
@@ -1415,10 +1338,7 @@ th {
   font-weight: 400;
   font-size: 16px;
   line-height: 38px;
-  /* identical to box height, or 238% */
-
   letter-spacing: -0.025em;
-
   color: #ffffff;
 }
 
@@ -1427,7 +1347,7 @@ th {
 .logos {
   background: #ffffff;
   border-radius: 4px;
-  padding: 50px 0px;
+  padding: 35px 0px;
 }
 .logos .container {
   display: flex;
@@ -1437,7 +1357,7 @@ th {
   width: 20%;
 }
 .single-Logo img {
-  width: 60%;
+  width: 50%;
 }
 /* single-Logo */
 
@@ -1449,17 +1369,11 @@ th {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 31px;
-  line-height: 40px;
-  /* or 125% */
-
+  font-size: 48px;
+  line-height: 60px;
   letter-spacing: -0.025em;
   font-feature-settings: "liga" off;
-
   color: #ffffff;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   align-self: stretch;
@@ -1472,15 +1386,10 @@ th {
   font-weight: 700;
   font-size: 36px;
   line-height: 45px;
-  /* or 125% */
-
   letter-spacing: -0.025em;
   font-feature-settings: "liga" off;
-
   color: #ffffff;
   margin-bottom: 40px;
-
-  /* Inside auto layout */
 }
 .partner p {
   font-family: "Inter";
@@ -1488,14 +1397,8 @@ th {
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
-  /* or 156% */
-
   font-feature-settings: "liga" off;
-
   color: #ffffff;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 1;
   align-self: stretch;
@@ -1524,12 +1427,9 @@ th {
   font-weight: 700;
   font-size: 36px;
   line-height: 45px;
-  /* identical to box height, or 125% */
-
   letter-spacing: -0.025em;
   font-feature-settings: "liga" off;
   text-align: left;
-
   color: #ba963a;
 }
 .way-des {
@@ -1538,14 +1438,9 @@ th {
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
-  /* or 133% */
-
   font-feature-settings: "liga" off;
   text-align: left;
   width: 100%;
-
-  /* White */
-
   color: #ffffff;
 }
 /* way-section */
@@ -1557,12 +1452,7 @@ th {
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
-  /* identical to box height, or 150% */
-
   font-feature-settings: "liga" off;
-
-  /* White */
-
   color: #ffffff;
   margin-top: 70px;
   margin-bottom: 16px;
@@ -1573,12 +1463,7 @@ footer .title {
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
-  /* identical to box height, or 150% */
-
   font-feature-settings: "liga" off;
-
-  /* White */
-
   color: #ffffff;
 }
 .footeritem {
@@ -1587,12 +1472,6 @@ footer .title {
   font-weight: 200;
   font-size: 16px;
   line-height: 24px;
-  /* identical to box height, or 150% */
-
-  font-feature-settings: "liga" off;
-
-  /* White */
-
   color: #ffffff;
   display: block;
   margin-top: 30px;
@@ -1601,7 +1480,7 @@ footer .title {
   background: linear-gradient(92.65deg, #ba963a 43.68%, #cc9c21 80.97%);
   border-radius: 10px;
   color: #ffffff;
-
+  padding: 10px 26px;
   margin-top: 10px;
   transition: all 0.3s ease-out 0s;
 }
@@ -1611,6 +1490,8 @@ input {
   margin-top: 30px;
   padding: 10px 10px;
   width: 100%;
+  border: none;
+  color: #ca9c24;
 }
 input::placeholder {
   color: #181818 !important;
@@ -1619,7 +1500,6 @@ input::placeholder {
   background: linear-gradient(92.65deg, #a68634 43.68%, #916b0b 80.97%);
   border-radius: 10px;
   color: #ffffff;
-  /* width: 100%; */
   margin-top: 10px;
 }
 
@@ -1627,3 +1507,4 @@ input::placeholder {
 div#tradingview_7b7ac {
   height: 250px;
 }
+img#fimg {width: 109px;height: 92px;}
