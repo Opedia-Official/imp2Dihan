@@ -146,17 +146,18 @@ label {
   font-weight: 400;
 }
 *::-moz-selection {
-  background: #d6b161;
+  background: #cc9c212e ;
   color: #fff;
   text-shadow: none;
 }
 ::-moz-selection {
-  background: #444;
+  background: #cc9c212e;
   color: #fff;
   text-shadow: none;
+  opacity: .3;
 }
 ::selection {
-  background: #444;
+  background: #cc9c212e ;
   color: #fff;
   text-shadow: none;
 }
