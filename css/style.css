@@ -1508,3 +1508,9 @@ div#tradingview_7b7ac {
   height: 250px;
 }
 img#fimg {width: 109px;height: 92px;}
+
+
+html.theme-dark .tv-embed-widget-wrapper__body {
+  background: #1e222d;
+  border-color: #434651;
+}
