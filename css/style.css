@@ -1,0 +1,1438 @@
+/*
+  Theme Name: Imperial
+  Author: Imperial Mining
+  Description: This is a Imperial Production
+  Version: 1.0
+*/
+
+/* 1. Theme default css */
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;500;600&display=swap");
+
+/* font-family: 'DM Sans', sans-serif;
+
+font-family: 'Poppins', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #111111;
+}
+.img {
+  max-width: 100%;
+  transition: all 0.3s ease-out 0s;
+}
+img {
+  width: 100%;
+}
+.f-left {
+  float: left;
+}
+.f-right {
+  float: right;
+}
+.fix {
+  overflow: hidden;
+}
+a {
+  text-decoration: none;
+}
+a,
+.button,
+button {
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+button:focus {
+  outline: 0 none;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.capitalize {
+  text-transform: capitalize;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  color: #fff;
+  margin-top: 0px;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: normal;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: inherit;
+}
+h1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+h2 {
+  font-size: 35px;
+}
+h3 {
+  font-size: 28px;
+}
+h4 {
+  font-size: 22px;
+}
+h5 {
+  font-size: 18px;
+}
+h6 {
+  font-size: 16px;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+li {
+  list-style: none;
+}
+p {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 20px;
+  color: #fff;
+  margin-bottom: 0;
+}
+hr {
+  border-bottom: 1px solid #eceff8;
+  border-top: 0 none;
+  margin: 30px 0;
+  padding: 0;
+}
+label {
+  color: #7e7e7e;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+}
+*::-moz-selection {
+  background: #d6b161;
+  color: #fff;
+  text-shadow: none;
+}
+::-moz-selection {
+  background: #444;
+  color: #fff;
+  text-shadow: none;
+}
+::selection {
+  background: #444;
+  color: #fff;
+  text-shadow: none;
+}
+*::-moz-placeholder {
+  color: #555555;
+  font-size: 14px;
+  opacity: 1;
+}
+*::placeholder {
+  color: #555555;
+  font-size: 14px;
+  opacity: 1;
+}
+.btn-brand {
+  background: linear-gradient(114.84deg, #ba963a 34.18%, #e6ae1f 88.42%);
+  border-radius: 8px;
+  padding: 16px 24px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  display: inline-block;
+  font-family: "Inter";
+}
+.btn-two {
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  padding: 15px 23px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  display: inline-block;
+  font-family: "Inter";
+}
+
+.btn-brand:hover {
+  color: #fff;
+}
+
+/* Custom css Starts here */
+
+/* ***************************HEADER******************* */
+li.nav-item {
+  margin-left: 22px;
+  margin: 10px 0;
+  margin-left: 22px;
+}
+.navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0.55);
+  border-color: rgba(0, 0, 0, 0.1);
+  background: #777 !important;
+}
+li.nav-item a {
+  display: flex;
+  align-items: center;
+}
+
+li.nav-item a img {
+  display: inline-block;
+  margin-right: 8px;
+}
+/* ***************************HEADER******************* */
+/* /* ***************************HERO SECTION******************* */
+.hero-content h1 {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 72px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+a.hero-watch img {
+  height: 24px;
+  width: 24px;
+  margin-right: 10px;
+}
+
+a.hero-watch {
+  display: flex;
+  align-items: center;
+}
+
+.hero-action {
+  display: flex;
+  align-items: center;
+}
+
+.hero-action > a {
+  margin-right: 20px;
+}
+a.hero-watch {
+  color: #ba963a;
+  font-weight: 800;
+}
+.hero-img img {
+  width: 577px;
+  height: 645px;
+}
+.hero-img {
+  display: flex;
+  justify-content: flex-end;
+}
+/* ***************************HERO SECTION******************* */
+
+/* ***************************OUR SPECIALITY SECTION******************* */
+.section-title h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  background: linear-gradient(90.46deg, #ba963a 46.95%, #cc9c21 57.73%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.speciality-text p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+}
+.section-title p.pera {
+  margin-top: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+/* ***************************OUR SPECIALITY SECTION******************* */
+/* ***************************PRICING SECTION******************* */
+.pricing-wrap {
+  text-align: center;
+}
+
+.pricing-wrap h3.title {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 32px;
+  text-align: center;
+  margin-bottom: 13px;
+  color: #ba963a;
+}
+
+.pricing-wrap p.price-mini-desc {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  margin-bottom: 50px;
+  color: #ffffff;
+}
+
+.pricing-wrap .desc {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.pricing-wrap .price {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 38px;
+  margin-bottom: 45px;
+  /* or 76% */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+a.btn-price {
+  background: linear-gradient(99.62deg, #ba963a 42.75%, #cc9c21 73.91%);
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 700;
+  width: 212px;
+  height: 66px;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 59px;
+}
+/* ***************************PRICING SECTION******************* */
+
+/* ***************************AWARDS  SECTION******************* */
+.trad-start {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.trad-start a {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.trad-start p {
+  font-size: 18px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+}
+.awards-item img {
+  width: 31px;
+  margin-bottom: 13px;
+}
+
+.awards-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.awards-item p {
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #ffffff;
+}
+.awards-item {
+  border: 1px solid #ba963a;
+  border-radius: 10px;
+  padding: 26px;
+}
+.awards-wrap {
+  background: red;
+  width: 74%; /* display: flex; */ /* flex-direction: column; */
+  margin: auto;
+  background: #313131;
+  border-radius: 10px;
+  padding: 38px 73px;
+  padding-top: 49px;
+}
+/* ***************************AWARDS  SECTION******************* */
+/* ***************************MARKET ANALYSIS  SECTION******************* */
+.market-content h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: -0.025em;
+  font-feature-settings: "liga" off;
+
+  color: #ffffff;
+}
+
+.market-content p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  font-feature-settings: "liga" off;
+  color: #ffffff;
+}
+
+.analysis-item-wrap {
+  background: linear-gradient(138.71deg, #ba963a 15.25%, #cc9c21 85.62%);
+  border-radius: 10px 10px 10px 77px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 35px 28px;
+  width: 186px;
+  margin-right: 15px;
+}
+.anaylysis-right-wrap {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.analysis-item-wrap img {
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+h4.ana-title {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  /* or 127% */
+
+  text-align: center;
+  font-feature-settings: "liga" off;
+
+  color: #ffffff;
+}
+/* ***************************MARKET ANALYSIS  SECTION******************* */
+
+/* ***************************PACKAGE  SECTION******************* */
+.package-item-wrap {
+  background: #313131;
+  box-shadow: 0px 18px 35px rgb(0 0 0 / 25%);
+  border: 1px solid #ba963a;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 45px;
+}
+.package-item-top {
+  display: flex;
+  align-items: center;
+}
+
+.package-item-top p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: -0.025em;
+
+  color: #ffffff;
+  margin-right: 15px;
+}
+
+.package-item-top span.package-price {
+  background: #ba963a;
+  padding: 5px 10px;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+h2.pack-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: -0.025em;
+  font-feature-settings: "liga" off;
+  color: #ba963a;
+  margin: 15px 0;
+}
+
+.pack-desc {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.025em;
+  text-align: start;
+  width: 100%;
+  color: #ffffff;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #ba963a;
+  padding-bottom: 30px;
+}
+
+li.package-item {
+  display: flex;
+  align-items: center;
+}
+
+li.package-item img {
+  height: 16px;
+  width: 16px;
+  margin-right: 15px;
+}
+ul.package-list {
+  margin-bottom: 30px;
+}
+
+ul.package-list li {
+  margin-bottom: 20px;
+}
+a.btn-package {
+  padding: 10px 30px;
+  background: linear-gradient(107.32deg, #ba963a 38.12%, #cc9c21 76.49%);
+  border-radius: 10px;
+  color: #fff;
+}
+/* ***************************PACKAGE  SECTION******************* */
+
+/* ***************************APP PROMOTION  SECTION******************* */
+section.trade-app {
+  background: linear-gradient(122.49deg, #ba963a 21.23%, #cc9c21 74.55%);
+}
+
+.trade-content > h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: -0.025em;
+}
+
+.trade-content .trade-desc {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #fff;
+  margin-bottom: 45px;
+}
+
+.trade-promotion h4 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+
+  font-feature-settings: "liga" off;
+
+  color: #111827;
+}
+
+.promotion-img img {
+  width: 135px;
+  height: 40px;
+  display: inline-block;
+  margin-right: 10px;
+}
+/* ***************************APP PROMOTION  SECTION******************* */
+
+/* ***************************  MEMBERS   SECTION******************* */
+.members-wrap img {
+  width: 87px;
+  height: 109px;
+}
+
+.members-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: #313131;
+  height: 483px;
+  box-shadow: 0px 18px 35px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 80px 24px;
+  position: relative;
+  overflow: hidden;
+}
+.members-wrap:after {
+  position: absolute;
+  height: 8px;
+  width: 200px;
+  background: #ba963a;
+  bottom: -1px;
+  left: 50%;
+  z-index: 333;
+  content: "";
+  transform: translateX(-50%);
+  border-radius: 40px;
+}
+
+.members-wrap h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+  /* identical to box height, or 89% */
+
+  text-align: center;
+  letter-spacing: -0.025em;
+  font-feature-settings: "liga" off;
+
+  color: #ba963a;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+/* ***************************  MEMBERS   SECTION******************* */
+
+/* ***************************  SECURITY   SECTION******************* */
+.section-title h3 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 60px;
+  color: #fff;
+}
+.security-images {
+  display: flex;
+}
+
+.security-images img.main {
+  width: 178px;
+  height: 179px;
+  margin-right: 20px;
+}
+
+.security-images img {
+  width: 54px;
+  height: 88px;
+}
+
+.security-content h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 60px;
+  /* identical to box height, or 167% */
+
+  letter-spacing: -0.025em;
+  font-feature-settings: "liga" off;
+
+  background: linear-gradient(90.46deg, #ba963a 46.95%, #cc9c21 57.73%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.security-content p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
+.security-bottom p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+
+/* ***************************  SECURITY   SECTION******************* */
+
+/* ***************************  TRADING   SECTION******************* */
+img.trading-img {
+  height: 24px;
+  width: 24px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.t-left {
+  display: flex;
+  align-items: center;
+}
+
+.trading-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.t-left p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+
+span.t-right {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  font-feature-settings: "liga" off;
+
+  color: #22ab94;
+}
+
+.trading-bottom {
+  font-size: 24px;
+  line-height: 24px;
+  margin-top: 15px;
+  color: #22ab94;
+}
+
+.trading-item {
+  position: relative;
+}
+
+.trading-item:after {
+  position: absolute;
+  content: "";
+  background: #8b8b8b;
+  height: 100%;
+  width: 2px;
+  right: -40px;
+  top: 0;
+}
+.trading-wrap {
+  display: flex;
+  justify-content: space-evenly;
+  background: #8b8b8b;
+  background: linear-gradient(
+    90.25deg,
+    rgba(174, 174, 174, 0.3) 0%,
+    rgba(196, 196, 196, 0.07) 94.3%
+  );
+  border: 1px solid #8b8b8b;
+  padding-top: 40px;
+  padding-bottom: 27px;
+}
+.trading-bottom span {
+  font-size: 23px;
+  font-weight: 400;
+}
+
+.trading-bottom strong {
+  font-weight: 700;
+}
+
+.trad-img-2 {
+  padding-top: 175px;
+}
+
+.trad-img-1 {
+  padding-bottom: 135px;
+}
+.trading-item:last-child:after {
+  display: none;
+}
+/* ***************************  TRADING   SECTION******************* */
+
+/* D */
+
+/* analysis */
+.analysis {
+  background: linear-gradient(151.48deg, #ba963a 14.56%, #cc9c21 87.95%);
+  border-radius: 10px;
+  margin: 180px 0px;
+  padding: 80px 40px;
+}
+.analysis h1 {
+  /* Display lg / Bold */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  /* identical to box height, or 125% */
+
+  letter-spacing: -0.025em;
+  font-feature-settings: "liga" off;
+
+  color: #ffffff;
+}
+.analysis p {
+  /* Body lg / Regular */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+
+  /* text-align: center; */
+  font-feature-settings: "liga" off;
+
+  color: #ffffff;
+}
+.analysis h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 60px;
+  /* identical to box height, or 167% */
+
+  letter-spacing: -0.025em;
+  font-feature-settings: "liga" off;
+
+  color: #ffffff;
+  margin: 90px 0 60px;
+}
+
+.btc {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px 50px;
+  margin-bottom: 20px;
+}
+.btc .col-md-4 {
+  display: flex;
+  justify-content: flex-end;
+}
+.btc img {
+  width: 20px;
+  margin: 0px 5px;
+}
+.btc span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  font-feature-settings: "liga" off;
+
+  color: #ba963a;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  display: flex;
+  justify-content: flex-start;
+}
+.btc h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 29px;
+  letter-spacing: -0.025em;
+  font-feature-settings: "liga" off;
+  color: #313131;
+  margin: 10px 0px;
+}
+.btc p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+  /* or 181% */
+
+  letter-spacing: -0.025em;
+  font-feature-settings: "liga" off;
+
+  color: #313131;
+}
+.btc .brand1 {
+  background: #ea5021;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btc .brand2 {
+  background: #c31f25;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btc .brand3 {
+  background: #00e76a;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* table  */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  height: calc(100% - 20px);
+  background: white;
+  border-radius: 20px;
+}
+th {
+  color: #ba963a;
+}
+td {
+  flex-direction: revert;
+}
+.tdimg {
+  width: 20px;
+  margin-right: 10px;
+}
+td,
+th {
+  text-align: left;
+  padding: 26px;
+}
+
+/* analysis */
+
+/* mobileshow */
+.mobileshow .row {
+  margin: 200px 0px !important;
+}
+.mobileshow h1 {
+  /* Display lg/Bold */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  /* identical to box height, or 125% */
+
+  letter-spacing: -0.025em;
+  font-feature-settings: "liga" off;
+
+  background: linear-gradient(90.46deg, #ba963a 46.95%, #cc9c21 57.73%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.mobileshow h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 37px;
+  /* or 103% */
+
+  letter-spacing: -0.025em;
+  font-feature-settings: "liga" off;
+
+  color: #c5c5c5;
+}
+.mobileshow p {
+  /* Body lg / Regular */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+
+  font-feature-settings: "liga" off;
+
+  color: #ffffff;
+  width: 70%;
+}
+.mobileshow .maindiv {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/* mobileshow */
+
+/* finalcial */
+.finalcial {
+  background: #ba963a;
+  padding: 140px 0;
+  margin: 150px 0;
+  background-image: url("../images/Group.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+.finalcial .finanmain {
+  width: 47%;
+}
+.finalcial h1 {
+  /* Display lg/Bold */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  /* identical to box height, or 125% */
+
+  letter-spacing: -0.025em;
+  font-feature-settings: "liga" off;
+
+  color: #ffffff;
+}
+.finalcial p {
+  /* Body lg / Regular */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+
+  font-feature-settings: "liga" off;
+  color: #ffffff;
+  width: 65%;
+}
+
+/* finalcial */
+
+/* inestmain */
+
+.Investors {
+  margin: 200px 0px;
+}
+.Investors h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  /* identical to box height, or 125% */
+
+  text-align: center;
+  letter-spacing: -0.025em;
+  font-feature-settings: "liga" off;
+
+  background: linear-gradient(90.46deg, #ba963a 46.95%, #cc9c21 57.73%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 50px;
+}
+
+.inestmain {
+  background: #313131;
+  box-shadow: 0px 18px 35px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 45px;
+  border-bottom: 8px solid #ba963a;
+  height: 327px;
+}
+.inestmain h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 60px;
+  /* identical to box height, or 83% */
+
+  text-align: center;
+  letter-spacing: -0.025em;
+  font-feature-settings: "liga" off;
+
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+.inestmain p {
+  display: flex;
+  align-items: self-end;
+  font-size: 18px;
+}
+.inestmain small {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  /* identical to box height, or 144% */
+
+  text-align: center;
+  letter-spacing: -0.025em;
+  font-feature-settings: "liga" off;
+
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+.inestmain .exp {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: -0.025em;
+  font-feature-settings: "liga" off;
+  margin: 30px 0px;
+
+  color: #ba963a;
+}
+/* inestmain */
+
+/* trust */
+.trust {
+  margin: 200px 0px;
+}
+.trust h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  /* identical to box height, or 125% */
+
+  text-align: center;
+  letter-spacing: -0.025em;
+  font-feature-settings: "liga" off;
+
+  background: linear-gradient(90.46deg, #ba963a 46.95%, #cc9c21 57.73%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+.trust p {
+  /* Body lg / Regular */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+
+  text-align: center;
+  font-feature-settings: "liga" off;
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+.trust h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 60px;
+  /* identical to box height, or 167% */
+
+  text-align: center;
+  letter-spacing: -0.025em;
+  font-feature-settings: "liga" off;
+
+  background: linear-gradient(94.06deg, #ba963a 53.07%, #cc9c21 70.76%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-top: 100px;
+}
+.trust .row h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 38px;
+  /* identical to box height, or 158% */
+
+  letter-spacing: -0.025em;
+
+  color: #ba963a;
+}
+.trust .row .img img {
+  width: 122px;
+}
+.trust .row p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 38px;
+  /* identical to box height, or 238% */
+
+  letter-spacing: -0.025em;
+
+  color: #ffffff;
+}
+
+/* single-Logo */
+
+.logos {
+  display: flex; /* White */
+
+  background: #ffffff;
+  border-radius: 4px;
+}
+
+.single-Logo {
+  width: 20%;
+}
+.single-Logo img {
+  width: 60%;
+}
+/* single-Logo */
+
+/* partner */
+.partner {
+  margin: 200px 0px;
+}
+.partner h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  /* or 125% */
+
+  letter-spacing: -0.025em;
+  font-feature-settings: "liga" off;
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+.partner h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  /* or 125% */
+
+  letter-spacing: -0.025em;
+  font-feature-settings: "liga" off;
+
+  color: #ffffff;
+  margin-bottom: 40px;
+
+  /* Inside auto layout */
+}
+.partner p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+
+  font-feature-settings: "liga" off;
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+
+/* partner */
+/* way-section */
+.way-section {
+  margin: 200px 0;
+}
+
+.way-section .row {
+  padding: 86px 124px;
+  background: #313131;
+  border: 1px solid #ba963a;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin: 90px 0;
+}
+
+.waytitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  /* identical to box height, or 125% */
+
+  letter-spacing: -0.025em;
+  font-feature-settings: "liga" off;
+  text-align: left;
+
+  color: #ba963a;
+}
+.way-des {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  /* or 133% */
+
+  font-feature-settings: "liga" off;
+  text-align: left;
+  width: 100%;
+
+  /* White */
+
+  color: #ffffff;
+}
+/* way-section */
+
+/* footer  */
+.footertitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  font-feature-settings: "liga" off;
+
+  /* White */
+
+  color: #ffffff;
+  margin-top: 70px;
+  margin-bottom: 16px;
+}
+footer .title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  font-feature-settings: "liga" off;
+
+  /* White */
+
+  color: #ffffff;
+}
+.footeritem {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  font-feature-settings: "liga" off;
+
+  /* White */
+
+  color: #ffffff;
+  display: block;
+  margin-top: 30px;
+}
+.buttonprimary {
+  background: linear-gradient(92.65deg, #ba963a 43.68%, #cc9c21 80.97%);
+  border-radius: 10px;
+  color: #ffffff;
+
+  margin-top: 10px;
+  transition: all 0.3s ease-out 0s;
+}
+input {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 10px 293px 10px 15px;
+  width: 100%;
+}
+input::placeholder {
+  color: #181818 !important;
+}
+.buttonprimary:hover {
+  background: linear-gradient(92.65deg, #a68634 43.68%, #916b0b 80.97%);
+  border-radius: 10px;
+  color: #ffffff;
+  /* width: 100%; */
+  margin-top: 10px;
+}
+
+/* footer  */

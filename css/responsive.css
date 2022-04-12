@@ -1,0 +1,139 @@
+/* ***Responsive media query*** */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* dihan */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* dihan */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* dihan */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* dihan */
+
+  .waytitle {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+  }
+  .way-des {
+    font-size: 15px;
+    text-align: center;
+  }
+  .way-section .row {
+    padding: 50px 80px;
+    margin: 9px 0;
+  }
+  .mobileshow img {
+    display: none;
+  }
+  .mobileshow h1,
+  .mobileshow h2 {
+    text-align: center;
+  }
+  .mobileshow p {
+    width: 100%;
+    text-align: center;
+    text-align: justify;
+  }
+  .mobileshow .row,
+  .Investors {
+    margin: 100px 0px !important;
+  }
+  .Investors h1 {
+    margin-bottom: 5px;
+  }
+  .inestmain .exp {
+    margin: 10px 0px !important;
+  }
+  .finalcial h1 {
+    font-size: 35px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .finalcial p {
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    text-align: justify;
+  }
+  tbody,
+  td,
+  tfoot,
+  th,
+  thead,
+  tr {
+    display: none;
+  }
+  .Investors h1,
+  .analysis h1 {
+    font-size: 35px;
+  }
+  .analysis h3 {
+    font-size: 26px;
+    text-align: center;
+    margin: 40px 0px;
+  }
+  .btc .col-md-4 {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+  }
+  .inestmain .exp {
+    margin: 10px 0px;
+  }
+  .trust h1 {
+    font-size: 40px;
+    margin: 14px 0px;
+  }
+  .trust p {
+    font-size: 14px;
+  }
+  .trust .row .img img {
+    margin-top: 60px;
+  }
+  .partner {
+    margin: 100px 0px;
+  }
+  .partner h1 {
+    font-size: 35px;
+    text-align: center;
+    line-height: 40px;
+  }
+  .partner p {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  .partner h2 {
+    margin-top: 30px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .footertitle,
+  p {
+    text-align: center;
+  }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+
+@media all and (min-width: 481px) and (max-width: 575.98px) {
+  /* dihan */
+}
+
+@media all and (min-width: 321px) and (max-width: 480.98px) {
+  /* dihan */
+}
+
+@media all and (min-width: 0px) and (max-width: 320px) {
+  /* dihan */
+}
