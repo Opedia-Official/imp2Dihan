@@ -202,58 +202,41 @@ li.nav-item a img {
   margin-right: 8px;
 }
 /* ***************************HEADER******************* */
-/* /* ***************************HERO SECTION******************* */
-.hero-content h1 {
-  font-weight: 700;
+/* ***************************HERO SECTION******************* */
+.hero-content h1 {font-weight: 700;
   font-size: 60px;
-  line-height: 72px;
-  margin-bottom: 20px;
-}
-
-.hero-content p {
-  font-weight: 400;
+  line-height: 72px;margin-bottom: 20px;}
+  
+  .hero-content p {font-weight: 400;
   font-size: 18px;
-  line-height: 28px;
-  font-size: 16px;
-  margin-bottom: 40px;
-}
+  line-height: 28px;font-size: 16px;margin-bottom: 40px;}
+  
+  a.hero-watch img {height: 24px;width: 24px;margin-right: 10px;}
+  
+  a.hero-watch {display: flex;align-items: center;}
+  
+  .hero-action {display: flex;align-items: center;}
+  
+  .hero-action>a {margin-right: 20px;}
+  a.hero-watch {color: #BA963A;font-weight: 800;}
+  .hero-img img {width: 577px;
+    height: 645px;}
+    .hero-img {display: flex;justify-content: flex-end;}
 
-a.hero-watch img {
-  height: 24px;
-  width: 24px;
-  margin-right: 10px;
-}
+    header {position: relative; overflow-x: clip;}
 
-a.hero-watch {
-  display: flex;
-  align-items: center;
-}
+img.hero-utils {
+  position: absolute;
+  top: -600px;
+  right: -300px;
+  z-index: -1;
+  width: 1920px;
 
-.hero-action {
-  display: flex;
-  align-items: center;
-}
-
-.hero-action > a {
-  margin-right: 20px;
-}
-a.hero-watch {
-  color: #ba963a;
-  font-weight: 800;
-}
-.hero-img img {
-  width: 577px;
-  height: 645px;
-}
-.hero-img {
-  display: flex;
-  justify-content: flex-end;
 }
 /* ***************************HERO SECTION******************* */
 
 /* ***************************OUR SPECIALITY SECTION******************* */
-.section-title h2 {
-  font-family: "Inter";
+.section-title h2 {font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
@@ -263,520 +246,318 @@ a.hero-watch {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
+
 }
-.speciality-text p {
-  font-family: "Poppins";
+.speciality-text p {font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
-  line-height: 40px;
-}
-.section-title p.pera {
-  margin-top: 30px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 28px;
-}
+  line-height: 40px;}
+  .section-title p.pera {margin-top: 30px;font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;}
 
 /* ***************************OUR SPECIALITY SECTION******************* */
 /* ***************************PRICING SECTION******************* */
-.pricing-wrap {
-  text-align: center;
+.pricing-wrap {text-align: center;}
+section.pricing-area {position: relative;overflow-x: clip;}
+
+img.prise-utils {
+  position: absolute;
+  left: -900px;
+  top: 0;
+  height: 1692px;
+  left: -670px;
+  position: absolute;
+  top: -1047px;
+  width: 934px;
+  z-index: -1;
 }
 
-.pricing-wrap h3.title {
-  font-family: "DM Sans";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 32px;
-  text-align: center;
-  margin-bottom: 13px;
-  color: #ba963a;
-}
+.pricing-wrap h3.title {font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 32px;
+text-align: center;
+margin-bottom: 13px;
+color: #BA963A;}
 
-.pricing-wrap p.price-mini-desc {
-  font-family: "DM Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
-  text-align: center;
-  margin-bottom: 50px;
-  color: #ffffff;
-}
+.pricing-wrap p.price-mini-desc {font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+margin-bottom: 50px;
+color: #FFFFFF;}
 
-.pricing-wrap .desc {
-  font-family: "DM Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
+.pricing-wrap .desc {font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
 
-  text-align: center;
+text-align: center;
 
-  color: #ffffff;
-}
-.pricing-wrap .price {
-  font-family: "Poppins";
+color: #FFFFFF;}
+.pricing-wrap .price {font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
   font-size: 50px;
   line-height: 38px;
   margin-bottom: 45px;
   /* or 76% */
-
+  
   text-align: center;
-
-  color: #ffffff;
-}
-a.btn-price {
-  background: linear-gradient(99.62deg, #ba963a 42.75%, #cc9c21 73.91%);
-  border-radius: 10px;
-  color: #fff;
-  font-weight: 700;
-  width: 212px;
-  height: 66px;
-  display: inline-block;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
-  margin-bottom: 59px;
-}
+  
+  color: #FFFFFF;}
+  a.btn-price {background: linear-gradient(99.62deg, #BA963A 42.75%, #CC9C21 73.91%);
+    border-radius: 10px;color: #fff;font-weight: 700;width: 212px;height: 66px;display: inline-block;display: flex;align-items: center;justify-content: center;margin: 0 auto;margin-bottom: 59px;}
 /* ***************************PRICING SECTION******************* */
 
 /* ***************************AWARDS  SECTION******************* */
-.trad-start {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+.trad-start {display: flex;align-items: center; justify-content: center;}
 
-.trad-start a {
-  display: inline-block;
-  margin-right: 30px;
-}
+.trad-start a {display: inline-block;margin-right: 30px;}
 
-.trad-start p {
-  font-size: 18px;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 24px;
-}
-.awards-item img {
-  width: 31px;
-  margin-bottom: 13px;
-}
+.trad-start p {font-size: 18px;font-weight: 400;
+font-size: 18px;
+line-height: 24px;}
+.awards-item img {width: 31px;margin-bottom: 13px;}
 
-.awards-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
+.awards-item {display: flex;flex-direction: column;align-items: center;text-align: center;}
 
-.awards-item p {
-  font-size: 10px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 27px;
-  text-align: center;
-  color: #ffffff;
-}
-.awards-item {
-  border: 1px solid #ba963a;
-  border-radius: 10px;
-  padding: 26px;
-}
-.awards-wrap {
-  background: red;
-  width: 74%; /* display: flex; */ /* flex-direction: column; */
-  margin: auto;
-  background: #313131;
-  border-radius: 10px;
-  padding: 38px 73px;
-  padding-top: 49px;
-}
+.awards-item p {font-size: 10px;font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+text-align: center;
+color: #FFFFFF;}
+.awards-item {border: 1px solid #BA963A;border-radius: 10px;padding: 26px;}
+.awards-wrap {width: 74%;margin: auto;background: #313131;
+  border-radius: 10px;padding: 38px 73px;    padding-top: 49px;}
 /* ***************************AWARDS  SECTION******************* */
 /* ***************************MARKET ANALYSIS  SECTION******************* */
-.market-content h2 {
-  font-weight: 700;
+.market-content h2 {font-weight: 700;
   font-size: 48px;
   line-height: 60px;
   letter-spacing: -0.025em;
-  font-feature-settings: "liga" off;
-
-  color: #ffffff;
-}
-
-.market-content p {
-  font-weight: 400;
+  font-feature-settings: 'liga' off;
+  
+  color: #FFFFFF;}
+  
+  .market-content p {font-weight: 400;
   font-size: 18px;
   line-height: 28px;
-  font-feature-settings: "liga" off;
-  color: #ffffff;
-}
+  font-feature-settings: 'liga' off;
+  color: #FFFFFF;}
 
-.analysis-item-wrap {
-  background: linear-gradient(138.71deg, #ba963a 15.25%, #cc9c21 85.62%);
-  border-radius: 10px 10px 10px 77px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 35px 28px;
-  width: 186px;
-  margin-right: 15px;
-}
-.anaylysis-right-wrap {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.analysis-item-wrap img {
-  height: 50px;
-  width: 50px;
-  display: inline-block;
-  margin-bottom: 20px;
-}
-
-h4.ana-title {
-  font-weight: 600;
-  font-size: 22px;
-  line-height: 28px;
-  /* or 127% */
-
-  text-align: center;
-  font-feature-settings: "liga" off;
-
-  color: #ffffff;
-}
+  .analysis-item-wrap {background: linear-gradient(138.71deg, #BA963A 15.25%, #CC9C21 85.62%);
+    border-radius: 10px 10px 10px 77px;display: flex;flex-direction: column;align-items: center;justify-content: center;padding: 35px 28px;
+    width: 186px;
+    margin-right: 15px;
+  }
+  .anaylysis-right-wrap {display: flex;justify-content: flex-end;}
+    
+    .analysis-item-wrap img {height: 50px;width: 50px;display: inline-block;margin-bottom: 20px;}
+    
+    h4.ana-title {font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    /* or 127% */
+    
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    
+    color: #FFFFFF;}
 /* ***************************MARKET ANALYSIS  SECTION******************* */
 
 /* ***************************PACKAGE  SECTION******************* */
-.package-item-wrap {
-  background: #313131;
+section.package-area {
+  position: relative;
+  overflow-x: clip;
+}
+
+img.package-utils {
+  position: absolute;
+  bottom: -806px;
+  width: 1614px;
+  right: -119px;
+  width: 763px;
+  z-index: -1;
+}
+.package-item-wrap {background: #313131;
   box-shadow: 0px 18px 35px rgb(0 0 0 / 25%);
-  border: 1px solid #ba963a;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  text-align: center;
-  padding: 40px 45px;
-}
-.package-item-top {
-  display: flex;
-  align-items: center;
-}
+  border: 1px solid #BA963A;border-radius: 10px;display: flex;flex-direction: column;align-items: flex-start;justify-content: center;text-align: center;padding: 40px 45px;}
+  .package-item-top {display: flex;align-items: center;}
 
-.package-item-top p {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 32px;
-  text-align: center;
-  letter-spacing: -0.025em;
+.package-item-top p {font-weight: 400;
+font-size: 16px;
+line-height: 32px;
+text-align: center;
+letter-spacing: -0.025em;
 
-  color: #ffffff;
-  margin-right: 15px;
-}
+color: #FFFFFF;margin-right: 15px;}
 
-.package-item-top span.package-price {
-  background: #ba963a;
-  padding: 5px 10px;
-  border-radius: 30px;
-  color: #fff;
-  font-size: 16px;
-  line-height: 32px;
-}
+.package-item-top span.package-price {background: #BA963A;padding: 5px 10px;border-radius: 30px;color: #Fff;font-size: 16px;
+line-height: 32px;}
+li.package-item p {margin-bottom: 0;font-size: 16px;color: #Fff;text-align: left;}
 
-h2.pack-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 32px;
-  text-align: center;
-  letter-spacing: -0.025em;
-  font-feature-settings: "liga" off;
-  color: #ba963a;
-  margin: 15px 0;
-}
+h2.pack-title {font-weight: 700;
+font-size: 36px;
+line-height: 32px;
+text-align: center;
+letter-spacing: -0.025em;
+font-feature-settings: 'liga' off;
+color: #BA963A;margin: 15px 0;}
 
-.pack-desc {
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 32px;
-  letter-spacing: -0.025em;
-  text-align: start;
-  width: 100%;
-  color: #ffffff;
-  margin-bottom: 30px;
-  border-bottom: 1px solid #ba963a;
-  padding-bottom: 30px;
-}
+.pack-desc {font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+letter-spacing: -0.025em;
+text-align: start;
+width: 100%;
+color: #FFFFFF;margin-bottom: 30px;border-bottom: 1px solid #BA963A;padding-bottom: 30px;}
 
-li.package-item {
-  display: flex;
-  align-items: center;
-}
+li.package-item {display: flex;align-items: center;}
 
-li.package-item img {
-  height: 16px;
-  width: 16px;
-  margin-right: 15px;
-}
-ul.package-list {
-  margin-bottom: 30px;
-}
+li.package-item img {height: 16px;width: 16px;margin-right: 15px;}
+ul.package-list {margin-bottom: 30px;}
 
-ul.package-list li {
-  margin-bottom: 20px;
-}
-a.btn-package {
-  padding: 10px 30px;
-  background: linear-gradient(107.32deg, #ba963a 38.12%, #cc9c21 76.49%);
-  border-radius: 10px;
-  color: #fff;
-}
+ul.package-list li {margin-bottom: 20px;}
+a.btn-package {padding: 10px 30px;
+  background: linear-gradient(107.32deg, #BA963A 38.12%, #CC9C21 76.49%);border-radius: 10px;color: #Fff;}
 /* ***************************PACKAGE  SECTION******************* */
 
 /* ***************************APP PROMOTION  SECTION******************* */
-section.trade-app {
-  background: linear-gradient(122.49deg, #ba963a 21.23%, #cc9c21 74.55%);
-}
+section.trade-app {background: linear-gradient(122.49deg, #BA963A 21.23%, #CC9C21 74.55%);}
 
-.trade-content > h3 {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 60px;
-  letter-spacing: -0.025em;
-}
+.trade-content> h3 {font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 60px;
+letter-spacing: -0.025em;}
 
-.trade-content .trade-desc {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 28px;
-  color: #fff;
-  margin-bottom: 45px;
-}
+.trade-content .trade-desc {font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;color: #Fff;margin-bottom: 45px;}
 
-.trade-promotion h4 {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 28px;
+.trade-promotion h4 {font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
 
-  font-feature-settings: "liga" off;
+font-feature-settings: 'liga' off;
 
-  color: #111827;
-}
+color: #111827;}
 
-.promotion-img img {
-  width: 135px;
-  height: 40px;
-  display: inline-block;
-  margin-right: 10px;
-}
+.promotion-img img {width: 135px;height: 40px;display: inline-block;margin-right: 10px;}
 /* ***************************APP PROMOTION  SECTION******************* */
 
 /* ***************************  MEMBERS   SECTION******************* */
-.members-wrap img {
-  width: 87px;
-  height: 109px;
-}
+.members-wrap img {width: 87px;height: 109px;}
 
-.members-wrap {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  background: #313131;
-  height: 483px;
-  box-shadow: 0px 18px 35px rgba(0, 0, 0, 0.25);
-  border-radius: 10px;
-  padding: 80px 24px;
-  position: relative;
-  overflow: hidden;
-}
-.members-wrap:after {
-  position: absolute;
-  height: 8px;
-  width: 200px;
-  background: #ba963a;
-  bottom: -1px;
-  left: 50%;
-  z-index: 333;
-  content: "";
-  transform: translateX(-50%);
-  border-radius: 40px;
-}
+.members-wrap {display: flex;flex-direction: column;align-items: center;text-align: center;background: #313131; height: 483px;
+box-shadow: 0px 18px 35px rgba(0, 0, 0, 0.25);
+border-radius: 10px;padding: 80px 24px; position: relative; overflow: hidden;}
+.members-wrap:after {position: absolute;height: 8px;width: 200px;background: #BA963A;bottom: -1px;left: 50%;z-index: 333;content: '';transform: translateX(-50%);border-radius: 40px;}
 
-.members-wrap h2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 32px;
-  /* identical to box height, or 89% */
+.members-wrap h2 {font-weight: 700;
+font-size: 36px;
+line-height: 32px;
+/* identical to box height, or 89% */
 
-  text-align: center;
-  letter-spacing: -0.025em;
-  font-feature-settings: "liga" off;
+text-align: center;
+letter-spacing: -0.025em;
+font-feature-settings: 'liga' off;
 
-  color: #ba963a;
-  margin-top: 60px;
-  margin-bottom: 30px;
-}
+color: #BA963A;margin-top: 60px;margin-bottom: 30px;}
 /* ***************************  MEMBERS   SECTION******************* */
 
 /* ***************************  SECURITY   SECTION******************* */
-.section-title h3 {
-  font-weight: 600;
+.section-title h3 {font-weight: 600;
   font-size: 48px;
-  line-height: 60px;
-  color: #fff;
-}
-.security-images {
-  display: flex;
-}
+  line-height: 60px;color: #Fff;}
+  .security-images {display: flex;}
 
-.security-images img.main {
-  width: 178px;
-  height: 179px;
-  margin-right: 20px;
-}
+.security-images img.main {width: 178px;height: 179px;margin-right: 20px;}
 
-.security-images img {
-  width: 54px;
-  height: 88px;
-}
+.security-images img {width: 54px;height: 88px;}
 
-.security-content h3 {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 60px;
-  /* identical to box height, or 167% */
+.security-content h3 {font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 60px;
+/* identical to box height, or 167% */
 
-  letter-spacing: -0.025em;
-  font-feature-settings: "liga" off;
+letter-spacing: -0.025em;
+font-feature-settings: 'liga' off;
 
-  background: linear-gradient(90.46deg, #ba963a 46.95%, #cc9c21 57.73%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
-}
+background: linear-gradient(90.46deg, #BA963A 46.95%, #CC9C21 57.73%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;}
 
-.security-content p {
-  font-style: normal;
-  font-weight: 400;
+.security-content p {font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;}
+.security-bottom p {font-weight: 400;
   font-size: 18px;
-  line-height: 28px;
-}
-.security-bottom p {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 24px;
-  margin-bottom: 30px;
-}
+  line-height: 24px;margin-bottom: 30px;}
 
 /* ***************************  SECURITY   SECTION******************* */
 
 /* ***************************  TRADING   SECTION******************* */
-img.trading-img {
-  height: 24px;
-  width: 24px;
-  display: inline-block;
-  margin-right: 10px;
-}
+img.trading-img {height: 24px;width: 24px;display: inline-block;margin-right: 10px;}
 
-.t-left {
-  display: flex;
-  align-items: center;
-}
+.t-left {display: flex;align-items: center;}
 
-.trading-top {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
+.trading-top {display: flex;align-items: center;justify-content: space-between;}
 
-.t-left p {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #fff;
-}
+.t-left p {font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;color: #Fff;}
 
-span.t-right {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+span.t-right {font-weight: 400;
+font-size: 16px;
+line-height: 24px;
 
-  font-feature-settings: "liga" off;
+font-feature-settings: 'liga' off;
 
-  color: #22ab94;
-}
+color: #22AB94;}
 
-.trading-bottom {
-  font-size: 24px;
-  line-height: 24px;
-  margin-top: 15px;
-  color: #22ab94;
-}
+.trading-bottom {font-size: 24px;line-height: 24px;margin-top: 15px;color: #22AB94;}
 
-.trading-item {
-  position: relative;
-}
+.trading-item {position: relative;}
 
-.trading-item:after {
-  position: absolute;
-  content: "";
-  background: #8b8b8b;
-  height: 100%;
-  width: 2px;
-  right: -40px;
-  top: 0;
-}
+.trading-item:after {position: absolute;content: '';background: #8B8B8B;height: 100%;width: 2px;right: -40px;top: 0;}
 .trading-wrap {
+  flex-wrap: wrap;
   display: flex;
   justify-content: space-evenly;
-  background: #8b8b8b;
-  background: linear-gradient(
-    90.25deg,
-    rgba(174, 174, 174, 0.3) 0%,
-    rgba(196, 196, 196, 0.07) 94.3%
-  );
-  border: 1px solid #8b8b8b;
+  background: #8B8B8B;
+  background: linear-gradient(90.25deg, rgba(174, 174, 174, 0.3) 0%, rgba(196, 196, 196, 0.07) 94.3%);
+  border: 1px solid #8B8B8B;
   padding-top: 40px;
   padding-bottom: 27px;
 }
-.trading-bottom span {
-  font-size: 23px;
-  font-weight: 400;
-}
+.trading-bottom span {font-size: 23px;font-weight: 400;}
 
-.trading-bottom strong {
-  font-weight: 700;
-}
+.trading-bottom strong {font-weight: 700;}
 
-.trad-img-2 {
-  padding-top: 175px;
-}
 
-.trad-img-1 {
-  padding-bottom: 135px;
-}
-.trading-item:last-child:after {
-  display: none;
-}
+.trad-img-2 {padding-top: 175px;}
+
+.trad-img-1 {padding-bottom: 135px;}
+.trading-item:last-child:after {display: none;}
 /* ***************************  TRADING   SECTION******************* */
 
 /* D */
