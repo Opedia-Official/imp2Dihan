@@ -3,6 +3,11 @@
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   /* dihan */
+  td,
+  th {
+    text-align: left;
+    padding: 14px;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */

@@ -1240,10 +1240,11 @@ th {
 /* single-Logo */
 
 .logos {
-  display: flex; /* White */
-
   background: #ffffff;
   border-radius: 4px;
+}
+.logos .container {
+  display: flex;
 }
 
 .single-Logo {
@@ -1421,7 +1422,8 @@ footer .title {
 input {
   background: #ffffff;
   border-radius: 10px;
-  padding: 10px 293px 10px 15px;
+  margin-top: 30px;
+  padding: 10px 10px;
   width: 100%;
 }
 input::placeholder {
